@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service value="flickr">
+	<operation key="\S+\.\S+" tag="h1"/>
+	<address value="http://api.flickr.com/services/rest/"/>
+	<input key="arguments" tag="h3"/>
+	<output key="example response" tag="h3"/>
+</service>

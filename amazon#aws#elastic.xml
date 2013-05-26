@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service value="amazon">
+	<operation key="\S+" tag="h1"/>
+	<address key="sample request" tag="h3"/>
+	<input key=".*parameters.*" tag="h2"/>
+	<output key=".*response.*" tag="h2"/>
+</service>
