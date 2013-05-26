@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service value="google">
+	<operation key="\S+:\s\S+" tag="h1"/>
+	<address key=".*request.*|.*calls.*" tag="h3"/>
+	<input key=".*parameters.*" tag="h3"/>
+	<output key=".*response.*" tag="h2"/>
+</service>
